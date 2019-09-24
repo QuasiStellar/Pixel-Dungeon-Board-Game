@@ -1,0 +1,748 @@
+{
+  "cards": [
+    {
+      "name": "Marsupial Rat",
+      "power": 1,
+      "description": "Search the discard pile for any card and draw it.",
+      "card_type": "Minion",
+      "is_enemy": true,
+      "chapter": 0
+    },
+    {
+      "name": "Albino Rat",
+      "power": 1,
+      "description": "No effect.",
+      "card_type": "Minion",
+      "is_enemy": true,
+      "chapter": 0
+    },
+    {
+      "name": "Gnoll Scout",
+      "power": 1,
+      "description": "No effect.",
+      "card_type": "Minion",
+      "is_enemy": true,
+      "chapter": 0
+    },
+    {
+      "name": "Earthroot",
+      "power": 2,
+      "description": "Until the start of your next turn, card effects are disabled.",
+      "card_type": "Seed",
+      "is_enemy": false,
+      "chapter": 0
+    },
+    {
+      "name": "Sungrass",
+      "power": 2,
+      "description": "After you take damage, you may discard this card instantly.",
+      "card_type": "Seed",
+      "is_enemy": false,
+      "chapter": 0
+    },
+    {
+      "name": "Potion of Paralytic Gas",
+      "power": 3,
+      "description": "Reveal: Your card effects are disabled. Concealed: Give this card to another player and reveal it.",
+      "card_type": "Potion",
+      "is_enemy": false,
+      "chapter": 0
+    },
+    {
+      "name": "Potion of Healing",
+      "power": 3,
+      "description": "If you have 6 or more cards in your hand, discard 3 cards.",
+      "card_type": "Potion",
+      "is_enemy": false,
+      "chapter": 0
+    },
+    {
+      "name": "Scroll of Identify",
+      "power": 4,
+      "description": "Reveal a card in your opponent's hand. If it's not a potion, scroll or a wand, repeat.",
+      "card_type": "Scroll",
+      "is_enemy": false,
+      "chapter": 0
+    },
+    {
+      "name": "Scroll of Wipe Out",
+      "power": 4,
+      "description": "Discard your hand and draw the same amount of cards.",
+      "card_type": "Scroll",
+      "is_enemy": false,
+      "chapter": 0
+    },
+    {
+      "name": "Sad Ghost",
+      "power": 5,
+      "description": "Draw a card. Quest: Discard a rat, a gnoll or a crab. Reward: Banish a revealed card, or a card from the discard pile.",
+      "card_type": "Ally",
+      "is_enemy": false,
+      "chapter": 0
+    },
+    {
+      "name": "Talisman of Foresight",
+      "power": 6,
+      "description": "Reveal: The top card of drawing pile is always visible.",
+      "card_type": "Artifact",
+      "is_enemy": false,
+      "chapter": 0
+    },
+    {
+      "name": "Unstable Spellbook",
+      "power": 6,
+      "description": "Reveal: Your scrolls can be played in any location.",
+      "card_type": "Artifact",
+      "is_enemy": false,
+      "chapter": 0
+    },
+    {
+      "name": "Wand of Magic Missile",
+      "power": 7,
+      "description": "Zap: Deal 2 damage. Magic Shield: Reflect +2.",
+      "card_type": "Wand",
+      "is_enemy": false,
+      "chapter": 0
+    },
+    {
+      "name": "Wand of Blast Wave",
+      "power": 7,
+      "description": "Zap: Deal 1 damage. Magic Shield: Reflect +3",
+      "card_type": "Wand",
+      "is_enemy": false,
+      "chapter": 0
+    },
+    {
+      "name": "Gnoll Trickster",
+      "power": 8,
+      "description": "Conceal a card.",
+      "card_type": "Ranged",
+      "is_enemy": true,
+      "chapter": 0
+    },
+    {
+      "name": "Sewer Crab",
+      "power": 9,
+      "description": "Force your opponent to choose one: Take 4 damage / Conceal a revealed wand.",
+      "card_type": "Elite",
+      "is_enemy": true,
+      "chapter": 0
+    },
+    {
+      "name": "Great Crab",
+      "power": 9,
+      "description": "Magic Shield: Reflect",
+      "card_type": "Elite",
+      "is_enemy": true,
+      "chapter": 0
+    },
+    {
+      "name": "Goo",
+      "power": 10,
+      "description": "Locked Floor: Boss.",
+      "card_type": "Boss",
+      "is_enemy": true,
+      "chapter": 0
+    },
+    {
+      "name": "Dew Vial",
+      "power": null,
+      "description": "Search the discard pile for an Ankh. You may draw it.",
+      "card_type": "Artifact",
+      "is_enemy": false,
+      "chapter": 0
+    },
+    {
+      "name": "Well of Transmutation",
+      "power": null,
+      "description": "Can be played on any card. Choose this card's location.",
+      "card_type": "Artifact",
+      "is_enemy": false,
+      "chapter": 0
+    },
+    {
+      "name": "Crazy Thief",
+      "power": 1,
+      "description": "Steal a card.",
+      "card_type": "Minion",
+      "is_enemy": true,
+      "chapter": 1
+    },
+    {
+      "name": "Skeleton",
+      "power": 1,
+      "description": "Charge: Deal 1 damage, Take 1 damage.",
+      "card_type": "Minion",
+      "is_enemy": true,
+      "chapter": 1
+    },
+    {
+      "name": "Rotberry",
+      "power": 2,
+      "description": "Can be played in any location, excluding Sewers. This card cannot be played if it's the last card before you win.",
+      "card_type": "Seed",
+      "is_enemy": false,
+      "chapter": 1
+    },
+    {
+      "name": "Swiftthistle",
+      "power": 2,
+      "description": "Until the end of your next turn, players cannot play their last cards.",
+      "card_type": "Seed",
+      "is_enemy": false,
+      "chapter": 1
+    },
+    {
+      "name": "Potion of Strength",
+      "power": 3,
+      "description": "Reveal: This card's power in duels equals 11.",
+      "card_type": "Potion",
+      "is_enemy": false,
+      "chapter": 1
+    },
+    {
+      "name": "Potion of Haste",
+      "power": 3,
+      "description": "Take another turn. You may not end the game in it.",
+      "card_type": "Potion",
+      "is_enemy": false,
+      "chapter": 1
+    },
+    {
+      "name": "Scroll of Remove Curse",
+      "power": 4,
+      "description": "Discard a card. If it was cursed, repeat. Otherwise, draw 3 cards.",
+      "card_type": "Scroll",
+      "is_enemy": false,
+      "chapter": 1
+    },
+    {
+      "name": "Scroll of Banishment",
+      "power": 4,
+      "description": "Choose a card from the discard pile and banish it.",
+      "card_type": "Scroll",
+      "is_enemy": false,
+      "chapter": 1
+    },
+    {
+      "name": "Old Wandmaker",
+      "power": 5,
+      "description": "Quest: Discard a Rotberry, Corpse Dust, or a Fire Elemental. Reward: Draw a wand from the discard pile.",
+      "card_type": "Ally",
+      "is_enemy": false,
+      "chapter": 1
+    },
+    {
+      "name": "Alchemist's Toolkit",
+      "power": 6,
+      "description": "You may choose one: Discard 3 seeds and scavenge a potion / Discard 7 seeds and win the game.",
+      "card_type": "Artifact",
+      "is_enemy": false,
+      "chapter": 1
+    },
+    {
+      "name": "Sandals of Nature",
+      "power": 6,
+      "description": "Search the discard pile for a seed and draw it. You may give it to another player.",
+      "card_type": "Artifact",
+      "is_enemy": false,
+      "chapter": 1
+    },
+    {
+      "name": "Wand of Lightning",
+      "power": 7,
+      "description": "Zap: Deal 2 damage. Magic shield: All other players take 1 damage.",
+      "card_type": "Wand",
+      "is_enemy": false,
+      "chapter": 1
+    },
+    {
+      "name": "Wand of Regrowth",
+      "power": 7,
+      "description": "Scavenge a seed and put it in deck. Shuffle it afterwards. Magic Shield: Take 1 damage.",
+      "card_type": "Wand",
+      "is_enemy": false,
+      "chapter": 1
+    },
+    {
+      "name": "Gnoll Shaman",
+      "power": 8,
+      "description": "Concealed: Deal 1 damage. Charge: Zap: Deal 2 damage.",
+      "card_type": "Ranged",
+      "is_enemy": true,
+      "chapter": 1
+    },
+    {
+      "name": "Prison Guard",
+      "power": 9,
+      "description": "Unless played on an enemy, steal 3 cards and discard them.",
+      "card_type": "Elite",
+      "is_enemy": true,
+      "chapter": 1
+    },
+    {
+      "name": "Crazy Bandit",
+      "power": 9,
+      "description": "Steal a card. Give it's former owner a card of your choice.",
+      "card_type": "Elite",
+      "is_enemy": true,
+      "chapter": 1
+    },
+    {
+      "name": "Tengu",
+      "power": 10,
+      "description": "Locked Floor: Boss.",
+      "card_type": "Boss",
+      "is_enemy": true,
+      "chapter": 1
+    },
+    {
+      "name": "Corpse Dust",
+      "power": null,
+      "description": "Discard 6 minions",
+      "card_type": "Unique",
+      "is_enemy": false,
+      "chapter": 1
+    },
+    {
+      "name": "Ankh",
+      "power": null,
+      "description": "Reveal: Discard this card to keep playing if you lose to another card or effect.",
+      "card_type": "Unique",
+      "is_enemy": false,
+      "chapter": 1
+    },
+    {
+      "name": "Vampire Bat",
+      "power": 1,
+      "description": "Reveal: At the end of your turn, conceal this card.",
+      "card_type": "Minion",
+      "is_enemy": true,
+      "chapter": 2
+    },
+    {
+      "name": "Fadeleaf",
+      "power": 2,
+      "description": "Discard a card. If it's an enemy, move it to the top of drawing pile instead.",
+      "card_type": "Seed",
+      "is_enemy": false,
+      "chapter": 2
+    },
+    {
+      "name": "Icecap",
+      "power": 2,
+      "description": "Conceal an opponent's card of your choice.",
+      "card_type": "Seed",
+      "is_enemy": false,
+      "chapter": 2
+    },
+    {
+      "name": "Potion of Invisibility",
+      "power": 3,
+      "description": "Conceal all of your cards.",
+      "card_type": "Potion",
+      "is_enemy": false,
+      "chapter": 2
+    },
+    {
+      "name": "Potion of Frost",
+      "power": 3,
+      "description": "Force an opponent to conceal all their cards.",
+      "card_type": "Potion",
+      "is_enemy": false,
+      "chapter": 2
+    },
+    {
+      "name": "Scroll of Upgrade",
+      "power": 4,
+      "description": "Reveal: The damage of your zaps is increased by 1.",
+      "card_type": "Scroll",
+      "is_enemy": false,
+      "chapter": 2
+    },
+    {
+      "name": "Scroll of Magic Mapping",
+      "power": 4,
+      "description": "Look at the top card of drawing pile. You may draw it.",
+      "card_type": "Scroll",
+      "is_enemy": false,
+      "chapter": 2
+    },
+    {
+      "name": "Blacksmith",
+      "power": 5,
+      "description": "Quest: Discard Pickaxe. Reward: Choose this card's location.",
+      "card_type": "Ally",
+      "is_enemy": false,
+      "chapter": 2
+    },
+    {
+      "name": "Horn of Plenty",
+      "power": 6,
+      "description": "Reveal: draw one card each turn (is this bad?)",
+      "card_type": "Artifact",
+      "is_enemy": false,
+      "chapter": 2
+    },
+    {
+      "name": "Cloak of Shadows",
+      "power": 7,
+      "description": "Reveal: At the beginning of your turn, you may conceal a card.",
+      "card_type": "Artifact",
+      "is_enemy": false,
+      "chapter": 2
+    },
+    {
+      "name": "Wand of Avalanche",
+      "power": 6,
+      "description": "Zap: Deal 2 damage. Magic Shield: Deal 3 damage.",
+      "card_type": "Wand",
+      "is_enemy": false,
+      "chapter": 2
+    },
+    {
+      "name": "Wand of Frost",
+      "power": 7,
+      "description": "Zap: Deal 2 damage. Magic Shield: Reflect -2",
+      "card_type": "Wand",
+      "is_enemy": false,
+      "chapter": 2
+    },
+    {
+      "name": "Cave Spinner",
+      "power": 8,
+      "description": "Can be instantly played on any 3 cards of the same type.",
+      "card_type": "Ranged",
+      "is_enemy": true,
+      "chapter": 2
+    },
+    {
+      "name": "Gnoll Brute",
+      "power": 9,
+      "description": "Reveal: Block up to 2 damage from lost duels.",
+      "card_type": "Elite",
+      "is_enemy": true,
+      "chapter": 2
+    },
+    {
+      "name": "Shielded Brute",
+      "power": 9,
+      "description": "Reveal: Block up to 4 damage from lost duels.",
+      "card_type": "Elite",
+      "is_enemy": true,
+      "chapter": 2
+    },
+    {
+      "name": "DM-300",
+      "power": 10,
+      "description": "Locked floor: Boss.",
+      "card_type": "Boss",
+      "is_enemy": true,
+      "chapter": 2
+    },
+    {
+      "name": "Skeleton Key",
+      "power": null,
+      "description": "Can bypass and be played on any Locked floor.",
+      "card_type": "Unique",
+      "is_enemy": false,
+      "chapter": 2
+    },
+    {
+      "name": "Fire Elemental",
+      "power": 1,
+      "description": "Duel: Deal 3 damage. ",
+      "card_type": "Minion",
+      "is_enemy": true,
+      "chapter": 3
+    },
+    {
+      "name": "Dwarf Monk",
+      "power": 1,
+      "description": "Choose one: Duel: Deal 2 damage. / Duel: Discard a card.",
+      "card_type": "Minion",
+      "is_enemy": true,
+      "chapter": 3
+    },
+    {
+      "name": "Firebloom",
+      "power": 2,
+      "description": "If placed on a seed, deal 3 damage. Can be instantly played on Goo and counter it.",
+      "card_type": "Seed",
+      "is_enemy": false,
+      "chapter": 3
+    },
+    {
+      "name": "Stormvine",
+      "power": 2,
+      "description": "Reverse turn order.",
+      "card_type": "Seed",
+      "is_enemy": false,
+      "chapter": 3
+    },
+    {
+      "name": "Potion of Liquid Flame",
+      "power": 3,
+      "description": "Deal 1 damage. Target's turn is uninterrupted. Reveal: Instantly discard this card and take 2 damage.",
+      "card_type": "Potion",
+      "is_enemy": false,
+      "chapter": 3
+    },
+    {
+      "name": "Potion of Levitation",
+      "power": 3,
+      "description": "Choose one: Reverse turn order / Choose this card's location. Skip 1 turn.",
+      "card_type": "Potion",
+      "is_enemy": false,
+      "chapter": 3
+    },
+    {
+      "name": "Scroll of Rage",
+      "power": 4,
+      "description": "No effect.",
+      "card_type": "Scroll",
+      "is_enemy": false,
+      "chapter": 3
+    },
+    {
+      "name": "Scroll of Antimagic",
+      "power": 4,
+      "description": "Magic shield: Nullify. Can be played on any card with Zap.",
+      "card_type": "Scroll",
+      "is_enemy": false,
+      "chapter": 3
+    },
+    {
+      "name": "Ambitious Imp",
+      "power": 5,
+      "description": "Quest: Reveal a cursed card. Reward: Give it to an opponent.",
+      "card_type": "Ally",
+      "is_enemy": false,
+      "chapter": 3
+    },
+    {
+      "name": "Chalice of Blood",
+      "power": 6,
+      "description": "Charge: Take 2 damage. Discard any 2 cards.",
+      "card_type": "Artifact",
+      "is_enemy": false,
+      "chapter": 3
+    },
+    {
+      "name": "Cape of Thorns",
+      "power": 6,
+      "description": "Reveal: Nullify all damage. Do not draw any cards. If you are forced to draw a card, end your turn prematurely.",
+      "card_type": "Artifact",
+      "is_enemy": false,
+      "chapter": 3
+    },
+    {
+      "name": "Wand of Fireblast",
+      "power": 7,
+      "description": "Zap: Deal 2 damage. Magic Shield: Reflect +3.",
+      "card_type": "Wand",
+      "is_enemy": false,
+      "chapter": 3
+    },
+    {
+      "name": "Wand of Corruption",
+      "power": 7,
+      "description": "If you win a duel with this card, steal the opponent's card.",
+      "card_type": "Wand",
+      "is_enemy": false,
+      "chapter": 3
+    },
+    {
+      "name": "Dwarf Warlock",
+      "power": 8,
+      "description": "Charge: Zap: Deal 5 damage. Concealed: Duel: Deal 4 damage.",
+      "card_type": "Ranged",
+      "is_enemy": true,
+      "chapter": 3
+    },
+    {
+      "name": "Golem",
+      "power": 9,
+      "description": "Cards with power lower than 9 can't be played on this card.",
+      "card_type": "Elite",
+      "is_enemy": true,
+      "chapter": 3
+    },
+    {
+      "name": "Senior Monk",
+      "power": 9,
+      "description": "Force the player with most cards in his hand to discard cards until he has 5 cards left.",
+      "card_type": "Elite",
+      "is_enemy": true,
+      "chapter": 3
+    },
+    {
+      "name": "Dwarf King",
+      "power": 10,
+      "description": "Locked Floor: Boss.",
+      "card_type": "Boss",
+      "is_enemy": true,
+      "chapter": 3
+    },
+    {
+      "name": "Scroll Holder",
+      "power": null,
+      "description": "All players may discard their scrolls.",
+      "card_type": "Unique",
+      "is_enemy": false,
+      "chapter": 3
+    },
+    {
+      "name": "Dwarf Token",
+      "power": null,
+      "description": "Charge: All players may discard all dwarf related cards.",
+      "card_type": "Unique",
+      "is_enemy": false,
+      "chapter": 3
+    },
+    {
+      "name": "God's Larva",
+      "power": 1,
+      "description": "When Yog-Dzewa is played, you may instantly discard this card.",
+      "card_type": "Minion",
+      "is_enemy": true,
+      "chapter": 4
+    },
+    {
+      "name": "Succubus",
+      "power": 1,
+      "description": "Duel: Swap your hands with an opponent. Losing the duel cancels this effect.",
+      "card_type": "Minion",
+      "is_enemy": true,
+      "chapter": 4
+    },
+    {
+      "name": "Sorrowmoss",
+      "power": 2,
+      "description": "No effect. should have same but weaker effect of toxgas",
+      "card_type": "Seed",
+      "is_enemy": false,
+      "chapter": 4
+    },
+    {
+      "name": "Starflower",
+      "power": 2,
+      "description": "Shuffle the deck.",
+      "card_type": "Seed",
+      "is_enemy": false,
+      "chapter": 4
+    },
+    {
+      "name": "Potion of Toxic Gas",
+      "power": 3,
+      "description": "No effect.",
+      "card_type": "Potion",
+      "is_enemy": false,
+      "chapter": 4
+    },
+    {
+      "name": "Potion of Experience",
+      "power": 3,
+      "description": "Draw a card. You may return it to the deck and shuffle it.",
+      "card_type": "Potion",
+      "is_enemy": false,
+      "chapter": 4
+    },
+    {
+      "name": "Scroll of Teleportation",
+      "power": 4,
+      "description": "Choose this card's location.",
+      "card_type": "Scroll",
+      "is_enemy": false,
+      "chapter": 4
+    },
+    {
+      "name": "Ethereal Chains",
+      "power": 5,
+      "description": "Steal a card.",
+      "card_type": "Artifact",
+      "is_enemy": false,
+      "chapter": 4
+    },
+    {
+      "name": "Dried Rose",
+      "power": 6,
+      "description": "This card can be used as any card for any quest.",
+      "card_type": "Artifact",
+      "is_enemy": false,
+      "chapter": 4
+    },
+    {
+      "name": "Wand of Disintegration",
+      "power": 7,
+      "description": "Zap: Deal 2 damage. Magic Shield: Reflect +2",
+      "card_type": "Wand",
+      "is_enemy": false,
+      "chapter": 4
+    },
+    {
+      "name": "Wand of Prismatic Light",
+      "power": 7,
+      "description": "Zap: Deal 2 damage. Magic Shield: Reflect +2",
+      "card_type": "Wand",
+      "is_enemy": false,
+      "chapter": 4
+    },
+    {
+      "name": "Evil Eye",
+      "power": 8,
+      "description": "Charge: Banish a revealed card.",
+      "card_type": "Ranged",
+      "is_enemy": true,
+      "chapter": 4
+    },
+    {
+      "name": "Scorpio",
+      "power": 8,
+      "description": "Deal 1 damage. Target's turn is uninterrupted.",
+      "card_type": "Ranged",
+      "is_enemy": true,
+      "chapter": 4
+    },
+    {
+      "name": "Acidic Scorpio",
+      "power": 9,
+      "description": "Deal 1 damage.",
+      "card_type": "Elite",
+      "is_enemy": true,
+      "chapter": 4
+    },
+    {
+      "name": "Rotting Fist",
+      "power": 10,
+      "description": "When Yog-Dzewa is played, you may instantly discard this card. Can be played on Ranged Enemies.",
+      "card_type": "Boss",
+      "is_enemy": true,
+      "chapter": 4
+    },
+    {
+      "name": "Burning Fist",
+      "power": 10,
+      "description": "When Yog-Dzewa is played, you may instantly discard this card. Can be played on Elite Enemies.",
+      "card_type": "Boss",
+      "is_enemy": true,
+      "chapter": 4
+    },
+    {
+      "name": "Yog-Dzewa",
+      "power": 10,
+      "description": "Locked Floor: Boss.",
+      "card_type": "Boss",
+      "is_enemy": true,
+      "chapter": 4
+    },
+    {
+      "name": "Amulet of Yendor",
+      "power": null,
+      "description": "Move this card to the bottom of deck. If played again, win the game.",
+      "card_type": "Unique",
+      "is_enemy": false,
+      "chapter": 4
+    }
+  ]
+}
