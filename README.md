@@ -1,2 +1,2 @@
-# Pixel-Dungeon-Board-Gane
+# Pixel-Dungeon-Board-Game
 Card rendering.
