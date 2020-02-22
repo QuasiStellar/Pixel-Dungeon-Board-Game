@@ -58,7 +58,7 @@ def main():
         if card.is_enemy:
             card_image.alpha_composite(enemy, (WIDTH - 20, HEIGHT - 20))
 
-        card_image = card_image.resize((WIDTH * 4, HEIGHT * 4))
+        card_image = card_image.resize((WIDTH * 4, HEIGHT * 4), resample=0)
 
         Text.draw_name(card_image, card.name, WIDTH * 4, HEIGHT * 4)
 
